@@ -38,7 +38,7 @@ def get_numbers(numbers):
     for element in numbers:
         count +=1
     return count
-print('Number of elements: ', get_numbers(numbers))
+print('Колличество элементов: ', get_numbers(numbers))
 
 x = int(input('Введите первый индекс: '))
 y = int(input('Введите второй индекс: '))
