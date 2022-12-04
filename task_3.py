@@ -38,6 +38,6 @@ def list(n):
 n = int(input('Введите число N: '))
 numbers = list(n)
 print(numbers)
-x = open('file.txt','r')
+x = list(map(int, input("Введите числа через пробел:\n").split()))
 result = numbers[int(x.readline())] * numbers[int(x.readline(2))]
 print(result)
